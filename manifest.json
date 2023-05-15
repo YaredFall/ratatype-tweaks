@@ -1,0 +1,16 @@
+{
+    "name": "ratatype-tweaks",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "permissions": [
+    ],
+    "host_permissions": [
+        "*://*.ratatype.com/*"
+    ],
+    "content_scripts": [
+        {
+          "matches": ["*://*.ratatype.com/*"],
+          "js": ["content.js"]
+        }
+      ]
+}
